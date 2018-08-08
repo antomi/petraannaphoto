@@ -21,18 +21,16 @@
     background-color: #333;
 
 }
+.uppermenu li {
+    float: left;
+}
 .lowermenu ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    font-family: OpenSans-CondBold
 }
 .lowermenu ul li{
     list-style-type: initial ;
-}
-
-li {
-    float: left;
 }
 
 li a {
@@ -128,6 +126,11 @@ li a:hover {
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
+}
+
+.map {
+    border-top: 1px solid black;
+    padding-top: 10px;
 }
 
 @-webkit-keyframes fade {
