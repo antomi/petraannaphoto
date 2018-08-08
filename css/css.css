@@ -13,12 +13,22 @@
     font-family: OpenSans-CondBold;
 }
 
-ul {
+.uppermenu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+
+}
+.lowermenu ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: OpenSans-CondBold
+}
+.lowermenu ul li{
+    list-style-type: initial ;
 }
 
 li {
