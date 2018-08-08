@@ -24,6 +24,7 @@
     overflow: hidden;
     background-color: #333;
     font-family: OpenSans-CondBold;
+    font-size: 21px;
 
 }
 .uppermenu li {
@@ -150,5 +151,9 @@ li a:hover {
 
 h2 {
 font-family: dustismo;
-    font-size: 40px;
+    font-size: 21px;
+}
+
+h4{
+    font-size: 30px;
 }
