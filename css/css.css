@@ -13,8 +13,6 @@
 #page {
     width: 1000px;
     margin: 0 auto;
-    background-color: black;
-    padding: 1px;
 }
 
 .uppermenu ul {
@@ -131,13 +129,8 @@ li a:hover {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
-    animation-duration: 1.5s;
-}
+    animation-duration: 1.5s;}
 
-.map {
-    border-top: 1px solid black;
-    padding-top: 10px;
-}
 
 @-webkit-keyframes fade {
     from {opacity: .4}
@@ -157,3 +150,4 @@ font-family: dustismo;
 h4{
     font-size: 30px;
 }
+
